@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PC">
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifImageView"
+        android:layout_width="1080px"
+        android:layout_height="1920px"
+        android:background="@drawable/giphy1"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="359dp"
+        android:layout_height="126dp"
+        app:srcCompat="@drawable/h"
+        />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="375dp"
+        android:layout_height="104dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/cc"
+        app:layout_constraintCircle="@+id/imageView"
+        app:layout_constraintCircleAngle="540"
+        app:layout_constraintCircleRadius="450px"
+        />
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="375dp"
+        android:layout_height="104dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/ccc"
+        app:layout_constraintCircle="@+id/imageView"
+        app:layout_constraintCircleAngle="540"
+        app:layout_constraintCircleRadius="750px"
+        />
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="375dp"
+        android:layout_height="104dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/cccc"
+        app:layout_constraintCircle="@+id/imageView"
+        app:layout_constraintCircleAngle="540"
+        app:layout_constraintCircleRadius="1050px"
+        />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="146dp"
+        android:layout_height="58dp"
+        android:text="LAPTOP"
+        android:textSize="25sp"
+        app:layout_constraintCircle="@+id/imageView"
+        app:layout_constraintCircleAngle="530"
+        app:layout_constraintCircleRadius="1350px"
+        />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="146dp"
+        android:layout_height="58dp"
+        android:text="MOBILE"
+        android:textSize="25sp"
+        app:layout_constraintCircle="@+id/imageView"
+        app:layout_constraintCircleAngle="550"
+        app:layout_constraintCircleRadius="1350px"
+        />
+
+</android.support.constraint.ConstraintLayout>

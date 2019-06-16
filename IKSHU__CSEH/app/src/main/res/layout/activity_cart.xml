@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cart">
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifImageView"
+        android:layout_width="1080px"
+        android:layout_height="1920px"
+        android:background="@drawable/he"
+        android:visibility="visible" />
+
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="322dp"
+        android:layout_height="47dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintTop_toTopOf="@+id/gifview"
+        android:text="First Name"
+        android:textSize="25dp"
+        tools:ignore="UnknownId" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="322dp"
+        android:layout_height="47dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Last Name"
+        android:textSize="25dp"
+        app:layout_constraintCircle="@id/editText2"
+        app:layout_constraintCircleAngle="180"
+        app:layout_constraintCircleRadius="60dp"
+        />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone"
+        android:hint="Mobile Number"
+        app:layout_constraintCircle="@id/editText2"
+        app:layout_constraintCircleAngle="205"
+        app:layout_constraintCircleRadius="125dp" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="e-mail"
+        app:layout_constraintCircle="@id/editText2"
+        app:layout_constraintCircleAngle="197"
+        app:layout_constraintCircleRadius="180dp" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="397dp"
+        android:layout_height="54dp"
+        android:ems="10"
+        android:inputType="textPostalAddress"
+        android:hint="Address"
+        app:layout_constraintCircle="@id/editText2"
+        app:layout_constraintCircleAngle="170"
+        app:layout_constraintCircleRadius="240dp" />
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="date"
+        android:hint="Pin Code"
+        app:layout_constraintCircle="@id/editText2"
+        app:layout_constraintCircleAngle="190"
+        app:layout_constraintCircleRadius="300dp"/>
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="date"
+        android:hint="Date"
+        app:layout_constraintCircle="@id/editText2"
+        app:layout_constraintCircleAngle="188"
+        app:layout_constraintCircleRadius="360dp"/>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="155dp"
+        android:layout_height="50dp"
+        android:text="Submit"
+        app:layout_constraintCircle="@id/editText2"
+        app:layout_constraintCircleAngle="176"
+        app:layout_constraintCircleRadius="440dp"/>
+</android.support.constraint.ConstraintLayout>

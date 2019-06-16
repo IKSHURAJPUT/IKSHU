@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ikshu__cse_h">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".M3f"></activity>
+        <activity android:name=".M3e" />
+        <activity android:name=".M3d" />
+        <activity android:name=".M3c" />
+        <activity android:name=".M3b" />
+        <activity android:name=".M3a" />
+        <activity android:name=".M3de" />
+        <activity android:name=".M2de" />
+        <activity android:name=".M2g" />
+        <activity android:name=".M2f" />
+        <activity android:name=".M2e" />
+        <activity android:name=".M2d" />
+        <activity android:name=".M2c" />
+        <activity android:name=".M2b" />
+        <activity android:name=".M2a" />
+        <activity android:name=".M1de" />
+        <activity android:name=".M1f" />
+        <activity android:name=".M1e" />
+        <activity android:name=".M1d" />
+        <activity android:name=".M1c" />
+        <activity android:name=".M1b" />
+        <activity android:name=".M1a" />
+        <activity android:name=".M3" />
+        <activity android:name=".M2" />
+        <activity android:name=".M1" />
+        <activity android:name=".L3de" />
+        <activity android:name=".L3c" />
+        <activity android:name=".L3b" />
+        <activity android:name=".L3a" />
+        <activity android:name=".L2de" />
+        <activity android:name=".L2e" />
+        <activity android:name=".L2d" />
+        <activity android:name=".L2c" />
+        <activity android:name=".L2b" />
+        <activity android:name=".L2a" />
+        <activity android:name=".Lde" />
+        <activity android:name=".L1e" />
+        <activity android:name=".L1d" />
+        <activity android:name=".L1c" />
+        <activity android:name=".L1b" />
+        <activity android:name=".L1a" />
+        <activity android:name=".L3" />
+        <activity android:name=".L2" />
+        <activity android:name=".L1" />
+        <activity android:name=".PC3de" />
+        <activity android:name=".PC3e" />
+        <activity android:name=".PC3d" />
+        <activity android:name=".PC3c" />
+        <activity android:name=".PC3b" />
+        <activity android:name=".PC3a" />
+        <activity android:name=".PC2de" />
+        <activity android:name=".PC2e" />
+        <activity android:name=".PC2d" />
+        <activity android:name=".PC2c" />
+        <activity android:name=".PC2b" />
+        <activity android:name=".PC2a" />
+        <activity android:name=".end" />
+        <activity android:name=".Cart" />
+        <activity android:name=".PC1de" />
+        <activity android:name=".PC1d" />
+        <activity android:name=".PC1c" />
+        <activity android:name=".PC1b" />
+        <activity android:name=".PC1a" />
+        <activity android:name=".PC3" />
+        <activity android:name=".PC2" />
+        <activity android:name=".PC1" />
+        <activity android:name=".m" />
+        <activity android:name=".l" />
+        <activity android:name=".PC" />
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

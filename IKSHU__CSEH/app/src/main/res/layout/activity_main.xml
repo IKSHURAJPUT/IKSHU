@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifImageView"
+        android:layout_width="1080px"
+        android:layout_height="1920px"
+        android:background="@drawable/nature"
+        android:visibility="visible" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifview"
+        android:layout_width="1080px"
+        android:layout_height="500px"
+        android:layout_marginTop="240px"
+        android:src="@drawable/welcome2"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="225dp"
+        android:layout_height="72dp"
+        android:background="@drawable/c"
+        android:text="Continue"
+        android:textSize="25sp"
+        app:layout_constraintCircle="@+id/gifview"
+        app:layout_constraintCircleAngle="175"
+        app:layout_constraintCircleRadius="180dp"
+    />
+
+
+</android.support.constraint.ConstraintLayout>

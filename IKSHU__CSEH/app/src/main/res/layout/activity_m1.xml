@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".M1">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifImageView"
+        android:layout_width="1080px"
+        android:layout_height="1920px"
+        android:background="@drawable/backb"
+        android:scaleType="fitXY"
+        android:visibility="visible" />
+
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="360dp"
+        android:layout_height="360dp"
+        android:layout_marginTop="40px"
+        android:scaleType="fitXY"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/samsung" />
+
+    <ImageButton
+        android:id="@+id/imageButton11"
+        android:layout_width="180dp"
+        android:layout_height="80dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/cart"
+        app:layout_constraintCircle="@+id/imageButton7"
+        app:layout_constraintCircleAngle="180"
+        app:layout_constraintCircleRadius="750px" />
+
+    <ImageButton
+        android:id="@+id/imageButton12"
+        android:layout_width="180dp"
+        android:layout_height="80dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/back2"
+        app:layout_constraintCircle="@+id/imageButton7"
+        app:layout_constraintCircleAngle="194"
+        app:layout_constraintCircleRadius="940px" />
+
+    <ImageButton
+        android:id="@+id/imageButton13"
+        android:layout_width="180dp"
+        android:layout_height="80dp"
+        android:scaleType="fitXY"
+        app:layout_constraintCircle="@+id/imageButton7"
+        app:layout_constraintCircleAngle="166"
+        app:layout_constraintCircleRadius="940px"
+        app:srcCompat="@drawable/detail" />
+
+</android.support.constraint.ConstraintLayout>
